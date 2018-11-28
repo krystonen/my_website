@@ -1,15 +1,44 @@
----
-title: Le Wagon - Middleman
----
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="jumbotron jumbo-img">
+  <div class="jumbo-text">
+    <h1>Krisztina Kovari</h1>
+    <p>full-stack web developer</p>
+  </div>
+</div>
+
+<div class="wrapping">
+  <div class="main-container">
+    <div class="block1">
+      <div class="block-text">
+        <p> I graduated at Le Wagon Amsterdam in 2018 November as a full-stack web developer.
+        During this intensive 9-week bootcamp I learnt HTML, CSS, Bootstrap, Javascript, SQL, git, gitHub, Heroku, and Ruby on Rails.
+        To further develop my skills as a software developer I am ready to take on a full-time job and I'm also interested in building unique, responsive websites for individuals and small businesses.
+      </p>
+
+      </div>
+
+      <div class="block-img">
+        <%= image_tag "avatar.jpg", class:"avatar"%>
+      </div>
+    </div>
+    <div block-text> <%= mail_to "krystonen@gmail.com", "get in touch", class: "button"%>
+    </div>
+    <div class="block2">
+      <h2>Portfolio</h2>
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+    </div>
+  </div>
+</div>
+
+    </div>
   </div>
 </div>

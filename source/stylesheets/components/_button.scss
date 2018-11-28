@@ -1,0 +1,18 @@
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: $green;
+  text-transform: uppercase;
+  color:  white;
+  padding: 10px 20px;
+  width: 280px;
+  // margin: 30px 0;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.button:hover {
+  color: $darkgreen;
+  text-decoration: none;
+}
