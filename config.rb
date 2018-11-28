@@ -4,6 +4,8 @@ end
 
 activate :sprockets
 
+activate :directory_indexes
+
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
