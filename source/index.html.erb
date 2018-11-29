@@ -7,38 +7,26 @@
 </div>
 
 <div class="wrapping">
-  <div class="main-container">
-    <div class="block1">
-      <div class="block-text">
-        <p> I graduated at Le Wagon Amsterdam in 2018 November as a full-stack web developer.
-        During this intensive 9-week bootcamp I learnt HTML, CSS, Bootstrap, Javascript, SQL, git, gitHub, Heroku, and Ruby on Rails.
-        To further develop my skills as a software developer I am ready to take on a full-time job and I'm also interested in building unique, responsive websites for individuals and small businesses.
-      </p>
+  <div id="main">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div class="block-text">
+          <p> I graduated at Le Wagon Amsterdam in 2018 November as a full-stack web developer.
+          During this intensive 9-week bootcamp I learnt HTML, CSS, Bootstrap, Javascript, SQL, git, gitHub, Heroku, and Ruby on Rails.
+          To further develop my skills as a software developer I am ready to take on a full-time job and I am also interested in building unique, responsive websites for individuals and small businesses.
+          </p>
 
+        <div class="text-center">
+          <%= mail_to "krystonen@gmail.com", "contact me", class: "button"%>
+        </div>
+        </div>
       </div>
-
-      <div class="block-img">
-        <%= image_tag "avatar.jpg", class:"avatar"%>
+       <div class="col-xs-12 col-md-3 text-center">
+        <div class="block-img">
+          <%= image_tag "avatar.jpg", class:"avatar"%>
+        </div>
       </div>
     </div>
-    <div block-text> <%= mail_to "krystonen@gmail.com", "get in touch", class: "button"%>
-    </div>
-    <div class="block2">
-      <h2>Portfolio</h2>
-      <div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-    </div>
-  </div>
-</div>
 
-    </div>
   </div>
 </div>
