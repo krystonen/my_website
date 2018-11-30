@@ -9,24 +9,76 @@
 <div class="wrapping">
   <div id="main">
     <div class="row">
-      <div class="col-xs-12 col-md-9">
+      <div class="col-xs-12 col-md-8">
         <div class="block-text">
           <p> I graduated at Le Wagon Amsterdam in 2018 November as a full-stack web developer.
           During this intensive 9-week bootcamp I learnt HTML, CSS, Bootstrap, Javascript, SQL, git, gitHub, Heroku, and Ruby on Rails.
           To further develop my skills as a software developer I am ready to take on a full-time job and I am also interested in building unique, responsive websites for individuals and small businesses.
           </p>
-
-        <div class="text-center">
-          <%= mail_to "krystonen@gmail.com", "contact me", class: "button"%>
-        </div>
         </div>
       </div>
-       <div class="col-xs-12 col-md-3 text-center">
+       <div class="col-xs-12 col-md-4 text-center">
         <div class="block-img">
           <%= image_tag "avatar.jpg", class:"avatar"%>
         </div>
       </div>
+      <div class="col-xs-12 col-md-12 text-center">
+        <div class="block-button">
+          <%= mail_to "krystonen@gmail.com", "contact me", class: "button"%>
+        </div>
+      </div>
     </div>
 
+    <div class="row">
+      <div class="col-xs-12">
+          <div class="divider"> </div>
+      </div>
+      <div class="col-xs-12 text-left">
+        <h2> Portfolio </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/submaster2.jpg');">
+          <div class="card-category">Website</div>
+          <div class="card-description">
+            <h3>Submaster</h3>
+            <p>Rails, SASS, HTML</p>
+          </div>
+          <%= link_to "Submaster", "http://www.submaster.club/", class: "card-link" %>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/anchorzone.jpg');">
+          <div class="card-category">Website</div>
+          <div class="card-description">
+            <h3>AnchorZone</h3>
+            <p>Rails, SASS, HTML</p>
+          </div>
+          <%= link_to "AnchorZone", "https://b2boats-clone.herokuapp.com/", class: "card-link" %>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/smoothie.jpg');">
+          <div class="card-category">Website</div>
+          <div class="card-description">
+            <h3>Smoothie Heaven</h3>
+            <p>Rails, SASS, HTML</p>
+          </div>
+          <%= link_to "Smoothie Heaven", "https://smoothie-heaven.herokuapp.com/", class: "card-link" %>
+        </div>
+      </div>
+
+
+
+      <div class="col-xs-12">
+          <div class="divider"> </div>
+      </div>
+
+     </div>
+    </div>
   </div>
 </div>
