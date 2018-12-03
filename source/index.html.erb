@@ -2,7 +2,7 @@
 <div class="jumbotron jumbo-img">
   <div class="jumbo-text">
     <h1>Krisztina Kovari</h1>
-    <p>full-stack web developer</p>
+    <p>web developer</p>
   </div>
 </div>
 
@@ -34,7 +34,7 @@
           <div class="divider"> </div>
       </div>
       <div class="col-xs-12 text-left">
-        <h2> Portfolio </h2>
+        <h2 id="portfolio"> Portfolio </h2>
       </div>
     </div>
 
@@ -71,14 +71,24 @@
           <%= link_to "Smoothie Heaven", "https://smoothie-heaven.herokuapp.com/", class: "card-link" %>
         </div>
       </div>
+    </div>
 
-
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('images/colorgame.png');">
+          <div class="card-category">Game</div>
+          <div class="card-description">
+            <h3>RGB Color Game</h3>
+            <p>Javascript, CSS, HTML</p>
+          </div>
+          <%= link_to "RGB Color Game", "https://krystonen.github.io/RGB-color-game/colorgame.html", class: "card-link" %>
+        </div>
+      </div>
 
       <div class="col-xs-12">
           <div class="divider"> </div>
       </div>
-
      </div>
-    </div>
+
   </div>
 </div>

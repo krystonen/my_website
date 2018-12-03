@@ -8,6 +8,7 @@
   // border: 10px solid $green;
   font-weight: bolder;
   margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 .card-category {
@@ -43,6 +44,7 @@
   background: black;
   opacity: 0;
 }
-.card-link:hover {
-  opacity: 0.1;
+.card:hover {
+  opacity: 0.9;
+  margin-top: 0px;
 }

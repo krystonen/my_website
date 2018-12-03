@@ -149,11 +149,11 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-deploy!
-  middleman-sprockets
+  middleman-sprockets (~> 4.1, >= 4.1.1)
   pry-byebug
   puma
   rack-contrib
   rake
 
 BUNDLED WITH
-   1.16.5
+   1.17.1

@@ -33,7 +33,12 @@ html, body {
 }
 
 .wrapping {
+  flex-grow: 1;
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
   background-color: #EFEFEF;
+  margin: 0;
 }
 
 #main {
@@ -41,6 +46,9 @@ html, body {
   margin: 0 auto;
   background-color: #EFEFEF;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .block1 {
@@ -59,6 +67,7 @@ html, body {
 .divider {
   margin-top: 20px;
   border-top: 1px solid $green;
+  margin-bottom: 20px;
 }
 
 .block-button {
