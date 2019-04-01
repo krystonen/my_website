@@ -220,6 +220,10 @@ button:focus {
   background: #4A9CEC;
 }
 
+.social-icon li .github:hover {
+  background: #000000;
+}
+
 .social-icon li .instagram:hover {
   background: #D6274D;
 }
@@ -231,6 +235,14 @@ button:focus {
 .social-icon li .google:hover {
   background: #CE332A;
 }
+
+.profile-wrapper .p:first-child {
+  color: red;
+}
+
+// .about a:link, a:visited {
+//  color:  #00b4d9;
+// }
 
 /* ScrollToTop */
 a.back-to-top {
@@ -378,6 +390,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: 15px;
   font-weight: 700;
 }
+
+.counter-section a:link, a:visited {
+  color: #fff;
+}
+
+.counter-section a:hover {
+  color: #00b4d9;
+}
+
 
 /* Resume */
 .timeline {
